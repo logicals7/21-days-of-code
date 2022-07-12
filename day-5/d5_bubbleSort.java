@@ -41,7 +41,7 @@ public class d5_bubbleSort {
 	public static int[] takeInput() {
 		Scanner sc = new Scanner(System.in);
 		int size = sc.nextInt();
-		int arr[] = new int[5];
+		int arr[] = new int[size];
 		for(int i = 0; i < arr.length; i++)
 			arr[i] = sc.nextInt();
 		return arr;
