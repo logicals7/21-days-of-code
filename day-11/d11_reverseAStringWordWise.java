@@ -18,6 +18,27 @@ Always indent your code
 Sample Output 2
 code your indent Always
  */
+
+/*
+//Solution using substring function:
+
+public static String reverseAStringWordWise(String str) {
+	int end = str.length(); 
+	int i = str.length() - 1;
+	String result = "";
+	while (i >= 0) {
+		if (str.charAt(i) == ' ') {
+			result = result + str.substring(i + 1, end) + " ";
+			end = i;
+		}
+		i--;
+	}
+	result += str.substring(i + 1, end); 
+	return result;
+}
+
+
+ */
 import java.util.*;
 
 public class d11_reverseAStringWordWise {
