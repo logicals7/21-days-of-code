@@ -1,3 +1,8 @@
+/*
+String: abc def ghi
+Output: cba fed ihg
+ */
+
 import java.util.Scanner;
 
 public class d11_reverseEachWordInAString {
